@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Real-time data fetching demo with Angular 14 & Firebase';
+  title = 'Real-time demo with Angular 14 & Firebase';
 }
