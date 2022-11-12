@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { APP_IMPORTS, APP_COMPONENTS_IMPORTS } from './app.imports';
+import { APP_COMPONENTS_IMPORTS, APP_IMPORTS } from './app.imports';
 import { APP_PROVIDERS } from './app.provider';
 
 @NgModule({
