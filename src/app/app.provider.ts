@@ -1,7 +1,7 @@
 import {
   provideRouter,
   withDisabledInitialNavigation,
-  withInMemoryScrolling
+  withInMemoryScrolling,
 } from '@angular/router';
 import { ROUTES } from './app.routing';
 import { SCHEDULED_APP_INITIALIZER_PROVIDER } from './shared';
@@ -9,7 +9,6 @@ import { SCHEDULED_APP_INITIALIZER_PROVIDER } from './shared';
 export const APP_PROVIDERS = [
   provideRouter(
     ROUTES,
-    // withDebugTracing(),
     /**
      * **🚀 Perf Tip for TBT:**
      *

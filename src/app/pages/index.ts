@@ -1,1 +1,1 @@
-export * as Features from './features';
+export { ResultsPageComponent } from './results-page/results-page.component';
